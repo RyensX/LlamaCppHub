@@ -1,0 +1,9 @@
+{
+  "identifier": "default",
+  "description": "Default capability for llama-cpp-manager",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "shell:allow-open"
+  ]
+}

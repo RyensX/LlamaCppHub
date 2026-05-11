@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LlamaCppHub</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      console.log("%c=== JS IS LOADING ===", "color:lime;font-size:20px;font-weight:bold;");
+      console.log("Window location:", window.location.href);
+      console.log("Tauri available:", typeof window.__TAURI__ !== "undefined");
+      console.log("__TAURI__ keys:", Object.keys(window.__TAURI__ || {}));
+    </script>
+  </body>
+</html>
