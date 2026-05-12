@@ -167,3 +167,6 @@ npm run tauri:build
 ## 许可证
 
 [**GNU General Public License v3.0**](LICENSE)
+
+## 致谢
+感谢 [LINUX DO](https://linux.do/) 社区的佬友们，这个项目的成长离不开社区的交流与支持。

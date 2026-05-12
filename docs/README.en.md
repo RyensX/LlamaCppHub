@@ -167,3 +167,6 @@ Before submitting changes, please consider:
 ## License
 
 [**GNU General Public License v3.0**](../LICENSE)
+
+## Acknowledgements
+Thanks to the members of the [LINUX DO](https://linux.do/) community. The growth of this project is inseparable from the community's communication and support.
