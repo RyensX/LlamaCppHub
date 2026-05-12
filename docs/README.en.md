@@ -2,7 +2,11 @@
 
 [中文](../README.md) | **English**
 
-LlamaCppHub is a user interface shell for `llama.cpp`. It helps you manage multiple configurations and run local `llama.cpp` inference more conveniently.
+LlamaCppHub is a convenient and good-looking user interface shell for `llama.cpp`, making it easy to manage `llama.cpp` runtime configurations.
+
+Unlike LM Studio and similar applications, this software is only a shell and does not bundle a `llama.cpp` runtime. This lets you freely combine it with different `llama.cpp` branches to maximize performance.
+
+> Most of the code for this software was also written using Qwen3.6-35B-A3B deployed locally. It is both convenient for local inference and useful for testing local model capabilities.
 
 ## Features
 
@@ -159,8 +163,6 @@ Before submitting changes, please consider:
 - Follow the existing code style
 - Run the necessary build or check commands
 - Avoid unrelated formatting or refactoring changes
-
-> Most of the code for this software was also written using Qwen3.6-35B-A3B, which is deployed locally.
 
 ## License
 
